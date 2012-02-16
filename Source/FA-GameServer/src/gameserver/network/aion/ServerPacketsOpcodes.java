@@ -1,12 +1,12 @@
 /*
- * This file is part of Aion Extreme Emulator <aion-core.net>.
+ * This file is part of Aion Fantasy Emulator <aionfantasy.com>.
  *
- *  aion extreme emulator is free software: you can redistribute it and/or modify
+ *  aion fantasy emulator is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  aion extreme emulator is distributed in the hope that it will be useful,
+ *  aion fantasy emulator is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
@@ -47,7 +47,7 @@ public class ServerPacketsOpcodes
 		addPacketOpcode(SM_MACRO_RESULT.class,0x0106, idSet);// 2.6 0x06, 2.7
         addPacketOpcode(SM_MACRO_LIST.class,0x0107, idSet);// 2.6 0x07, 2.7
 		addPacketOpcode(SM_NICKNAME_CHECK_RESPONSE.class,0x0109, idSet);// 2.6 0x09, 2.7
-        addPacketOpcode(SM_RIFT_ANNOUNCE.class,0x0A, idSet);// 2.1
+        addPacketOpcode(SM_RIFT_ANNOUNCE.class,0x010A, idSet);// 2.7
         addPacketOpcode(SM_SET_BIND_POINT.class,0x010B, idSet);// 2.6 0x0B, 2.7
 		// 2.7 Unknown - 0C 01 54 AB FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         addPacketOpcode(SM_ABYSS_RANK.class,0x010D, idSet);// 2.6 0x0D, 2.7
@@ -118,7 +118,7 @@ public class ServerPacketsOpcodes
 		addPacketOpcode(SM_QUIT_RESPONSE.class,0x0160, idSet);// 2.6 0x60, 2.7
 		addPacketOpcode(SM_PLAYER_STATE.class,0x0162, idSet);// 2.6 0x62, 2.7
 		// 2.7 Unknown - 63 00 54 00 FF 01 00 00 
-		addPacketOpcode(SM_LEVEL_UPDATE.class,0x0064, idSet);// 2.6 0x64, 2.7
+		addPacketOpcode(SM_LEVEL_UPDATE.class,0x0164, idSet);// 2.7
 		addPacketOpcode(SM_KEY.class,0x0166, idSet);// 2.6 0x66, 2.7
         addPacketOpcode(SM_STARTED_QUEST_LIST.class,0x0167, idSet);// 2.6 0x67, 2.7
         addPacketOpcode(SM_EXCHANGE_REQUEST.class,0x0168, idSet);// 2.6 0x68, 2.7
@@ -163,7 +163,7 @@ public class ServerPacketsOpcodes
 
         addPacketOpcode(SM_PRIVATE_STORE.class,0x01A4, idSet); // 2.6 0xA4, 2.7
         addPacketOpcode(SM_ABYSS_RANK_UPDATE.class,0xA6, idSet);// 2.1
-        addPacketOpcode(SM_GROUP_LOOT.class,0xA7, idSet);// 2.1
+        addPacketOpcode(SM_GROUP_LOOT.class,0x01A7, idSet);// 2.7
         addPacketOpcode(SM_ABYSS_RANKING_PLAYERS.class,0x01A8, idSet);// 2.6 0xA8, 2.7
 		addPacketOpcode(SM_MAY_LOGIN_INTO_GAME.class,0x01A9, idSet);// 2.6 0xA9, 2.7
         addPacketOpcode(SM_ACADEMY_BOOTCAMP_STAGE.class,0x01AA, idSet);
