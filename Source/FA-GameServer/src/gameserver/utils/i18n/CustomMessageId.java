@@ -1,21 +1,21 @@
 /*
- * Copyright (c) 2011 by Aion Extreme
+ * Copyright (c) 2011 by Aion Fantasy
  *
- * This file is part of Aion Extreme <http://aion-core.net>.
+ * This file is part of Aion Fantasy <http://aionfantasy.com>.
  *
- * Aion Extreme <http://www.aion-core.net> is free software: you
+ * Aion Fantasy <http://www.aionfantasy.com> is free software: you
  * can  redistribute  it and/or modify it under the terms
  * of  the GNU General Public License as published by the
  * Free Software Foundation, version 3 of the License.
  *
- * Aion Extreme <http://www.aion-core.net> is distributed in the
+ * Aion Fantasy <http://www.aionfantasy.com> is distributed in the
  * hope that it will be useful, but WITHOUT ANY WARRANTY;
  * without  even  the implied warranty of MERCHANTABILITY
  * or FITNESS FOR A PARTICULAR PURPOSE.
  *
  * See  the  GNU General Public License for more details.
  * You  should  have  received  a copy of the GNU General
- * Public License along with Aion Extreme 
+ * Public License along with Aion Fantasy 
  * <http://www.aion-core.net>.If not,see <http://www.gnu.org/licenses/>.
  */
 
@@ -27,11 +27,11 @@ package gameserver.utils.i18n;
  */
 public enum CustomMessageId
 {
-    WELCOME_PREMIUM("Welcome Premium Member to %s server.\nCopyright Aion-Extreme CS 2011 www.aion-core.net.\nSERVER RATES:\nExp Rate: %d\nQuest Rate: %d\nDrop Rate: %d\n"),
-    WELCOME_VIP("Welcome VIP Member to %s server.\nCopyright Aion-Extreme CS 2011 www.aion-core.net.\nSERVER RATES:\nExp Rate: %d\nQuest Rate: %d\nDrop Rate: %d\n"),
-    WELCOME_REGULAR("Welcome to %s server.\nCopyright Aion-Extreme CS 2011 www.aion-core.net.\nSERVER RATES:\nExp Rate: %d\nQuest Rate: %d\nDrop Rate: %d\n"),
+    WELCOME_PREMIUM("[Premium]: %s.\nCopyright Aion-Fantasy 2012.\nSERVER RATES:\nExp Rate: %d\nQuest Rate: %d\nDrop Rate: %d\n"),
+    WELCOME_VIP("[Vip]: %s.\nCopyright Aion-Fantasy 2012.\nSERVER RATES:\nExp Rate: %d\nQuest Rate: %d\nDrop Rate: %d\n"),
+    WELCOME_REGULAR("[Free]: %s.\nCopyright Aion-Fantasy 2012.\nSERVER RATES:\nExp Rate: %d\nQuest Rate: %d\nDrop Rate: %d\n"),
     SERVER_REVISION("Server Revision: %-6s"),
-    WELCOME_BASIC("Welcome to %s server.\nCopyright Aion-Extreme CS 2011 www.aion-core.net."),
+    WELCOME_BASIC("[Free]: %s.\nCopyright Aion-Fantasy 2012."),
     ANNOUNCE_GM_CONNECTION("%s just entered into Atreia."),
         COMMAND_NOT_ENOUGH_RIGHTS("You dont have enough rights to execute this command"),
         PLAYER_NOT_ONLINE("The player %s is not online"),
