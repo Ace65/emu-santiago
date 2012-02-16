@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quest_scripts>
+<!--
+  ~ This file is part of aion-unique.
+  ~
+  ~ aion-unique is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ aion-unique is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+	<!-- 10 - 19 -->
+	<item_collecting id="37000" start_npc_id="799835" end_npc_id="799835" action_item_id="182210034"/>
+	<item_collecting id="37001" start_npc_id="799835" end_npc_id="799835" action_item_id="182210035"/>
+	<monster_hunt id="37002" start_npc_id="799835" end_npc_id="799835">
+		<monster_infos var_id="0" max_kill="5" npc_id="210168"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="210179"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="210185"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="210694"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="210180"/>
+	</monster_hunt>
+	<monster_hunt id="37003" start_npc_id="799836" end_npc_id="799836">
+		<monster_infos var_id="0" max_kill="5" npc_id="217175"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="217176"/>
+	</monster_hunt>
+	<!-- 38 - 28 -->
+	<monster_hunt id="37004" start_npc_id="799836" end_npc_id="799836">
+		<monster_infos var_id="0" max_kill="5" npc_id="211786"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="211767"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="211787"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="211785"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="211782"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="211784"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="211781"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="211783"/>
+	</monster_hunt>
+	<!-- 25 - 35 -->
+	<monster_hunt id="37005" start_npc_id="799836" end_npc_id="799836">
+		<monster_infos var_id="0" max_kill="5" npc_id="212058"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="212060"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="212064"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="212066"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="212068"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="212074"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="212073"/>
+	</monster_hunt>
+	<monster_hunt id="37007" start_npc_id="799836" end_npc_id="799836">
+		<monster_infos var_id="0" max_kill="5" npc_id="212033"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="212025"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="212029"/>
+		<monster_infos var_id="0" max_kill="5" npc_id="212033"/>
+	</monster_hunt>	
+	<item_collecting id="37008" start_npc_id="799836" end_npc_id="799836" action_item_id="182210037"/>
+</quest_scripts>

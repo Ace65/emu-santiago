@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+	This file is part of aion-extreme <aion-core.net>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+	
+	@author kosyachok
+
+ -->
+<spawns>
+	<spawn map="300300000" npcid="799567" pool="1" interval="295">
+		<object x="345.0" y="345.0" z="96.0" h="0"/>
+	</spawn>
+	
+	<spawn map="300300000" npcid="799573" pool="10" interval="295">
+		<object x="384.0" y="349.7" z="96.7" h="65"/><!-- 1 arena -->
+		<object x="1261.0" y="835.7" z="358.6" h="89"/><!-- 2,3 arena -->
+		<object x="1821.0" y="796.0" z="470.1" h="61"/><!-- 4 arena -->
+		<object x="1777.8" y="1721.3" z="304.1" h="29"/><!-- 5 arena -->
+		<object x="1363.8" y="1750.3" z="319.7" h="65"/><!-- 6 arena -->
+		<object x="1749.1" y="1252.4" z="394.3" h="20"/><!-- 7 arena -->
+		<object x="1822.6" y="798.7" z="470.2" h="61"/><!-- 8 arena -->
+		<object x="1775.6" y="1720.6" z="304.2" h="27"/><!-- 9 arena -->
+		<object x="1363.6" y="1749.7" z="319.6" h="66"/><!-- 9.2 arena -->
+		<object x="1748.6" y="1250.9" z="394.2" h="18"/><!-- 10 arena -->
+	</spawn>
+</spawns>

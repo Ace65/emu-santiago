@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quest_scripts>
+
+	<!-- [Event] What Witches Wear -->
+	<item_collecting id="80110" start_npc_id="205484"/>
+	<!-- [Event] What Witch, Where? -->
+	<item_collecting id="80111" start_npc_id="205485"/>
+</quest_scripts>

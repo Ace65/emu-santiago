@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summon_stats_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../stats.xsd">
+	<summon_stats npc_id_dark="201041" level="50">
+		<stats_template maxHp="9611" pdefense="1611" mresist="1052" main_hand_attack="498" run_speed="12.0" main_hand_accuracy="1993" main_hand_crit_rate="50" magic_accuracy="1677" mcrit="9" evasion="1293" parry="0" />
+	</summon_stats>
+	<summon_stats npc_id_dark="201041" level="51">
+		<stats_template maxHp="9901" pdefense="1636" mresist="1170" main_hand_attack="510" run_speed="12.0" main_hand_accuracy="2184" main_hand_crit_rate="50" magic_accuracy="1798" mcrit="9" evasion="1484" parry="0" />
+	</summon_stats>
+	<summon_stats npc_id_dark="201041" level="52">
+		<stats_template maxHp="10906" pdefense="1761" mresist="1288" main_hand_attack="566" run_speed="12.0" main_hand_accuracy="2275" main_hand_crit_rate="50" magic_accuracy="1959" mcrit="9" evasion="1675" parry="0" />
+	</summon_stats>
+	<summon_stats npc_id_dark="201041" level="53">
+		<stats_template maxHp="11112" pdefense="1886" mresist="1376" main_hand_attack="590" run_speed="12.0" main_hand_accuracy="2366" main_hand_crit_rate="50" magic_accuracy="2150" mcrit="9" evasion="1866" parry="0" />
+	</summon_stats>
+	<summon_stats npc_id_dark="201041" level="54">
+		<stats_template maxHp="12318" pdefense="1901" mresist="1404" main_hand_attack="624" run_speed="12.0" main_hand_accuracy="2457" main_hand_crit_rate="50" magic_accuracy="2241" mcrit="9" evasion="2057" parry="0" />
+	</summon_stats>
+	<summon_stats npc_id_dark="201041" level="55">
+		<stats_template maxHp="13543" pdefense="1926" mresist="1492" main_hand_attack="678" run_speed="12.0" main_hand_accuracy="2548" main_hand_crit_rate="50" magic_accuracy="2332" mcrit="9" evasion="2248" parry="0" />
+	</summon_stats>
+</summon_stats_templates>
