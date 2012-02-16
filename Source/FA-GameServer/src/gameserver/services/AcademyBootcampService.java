@@ -293,6 +293,18 @@ public class AcademyBootcampService
         {
             switch(arena.getRound())
             {
+                case 1:
+                    startStage1_2(arena);
+                    break;
+                    
+                case 2:
+                    startStage1_3(arena);
+                    break;
+                    
+                case 3:
+                    startStage1_4(arena);
+                    break;
+                    
                 case 4:
                     startStage1_5(arena);
                     break;
@@ -475,34 +487,42 @@ public class AcademyBootcampService
     
     private void startStage1(EmpyreanCrucible arena) 
     {
-    	if(!arena.isStageAllSpawned())
-        	return;
-    	
-    	arena.setStageAllSpawned(false);
-    	
+        if(!arena.isStageAllSpawned())
+            return;
+        
+        arena.setStageAllSpawned(false);
+        
         int spawnTime = 5000;
 
-        // 1
+        // Room 1
         List<StageSpawn> spawn1 = new ArrayList<StageSpawn>();
         spawn1.add(new StageSpawn(217477 ,1));
         spawn1.add(new StageSpawn(217480 ,1));
-        ThreadPoolManager.getInstance().schedule(new stageSpawnTask(arena.getInstanceId(), spawn1, 1, 1, false), spawnTime);
-        
-        // 2
+        ThreadPoolManager.getInstance().schedule(new stageSpawnTask(arena.getInstanceId(), spawn1, 1, 1, true), spawnTime);
+    }
+    
+    private void startStage1_2(EmpyreanCrucible arena) 
+    {
+        // Room 2
         List<StageSpawn> spawn2 = new ArrayList<StageSpawn>();
-        spawnTime += 60000;
+        int spawnTime = 10000;
         spawn2.add(new StageSpawn(217483 ,1));
-        ThreadPoolManager.getInstance().schedule(new stageSpawnTask(arena.getInstanceId(), spawn2, 1, 2, false), spawnTime);
-        
-        // 3
+        ThreadPoolManager.getInstance().schedule(new stageSpawnTask(arena.getInstanceId(), spawn2, 1, 2, true), spawnTime);
+    }
+    
+    private void startStage1_3(EmpyreanCrucible arena) 
+    {
+        // Room 3
         List<StageSpawn> spawn3 = new ArrayList<StageSpawn>();
-        spawnTime += 60000;
+        int spawnTime = 10000;
         spawn3.add(new StageSpawn(217478 ,1));
-        ThreadPoolManager.getInstance().schedule(new stageSpawnTask(arena.getInstanceId(), spawn3, 1, 3, false), spawnTime);
-
-        // 4        
+        ThreadPoolManager.getInstance().schedule(new stageSpawnTask(arena.getInstanceId(), spawn3, 1, 3, true), spawnTime);
+    }
+    
+    private void startStage1_4(EmpyreanCrucible arena) 
+    {
         List<StageSpawn> spawn4 = new ArrayList<StageSpawn>();
-        spawnTime += 60000;
+        int spawnTime = 10000;
         spawn4.add(new StageSpawn(217482 ,1));
         ThreadPoolManager.getInstance().schedule(new stageSpawnTask(arena.getInstanceId(), spawn4, 1, 4, true), spawnTime);
     }
@@ -510,7 +530,7 @@ public class AcademyBootcampService
     private void startStage1_5(EmpyreanCrucible arena) 
     {
         List<StageSpawn> spawn5 = new ArrayList<StageSpawn>();
-        int spawnTime = 5000;
+        int spawnTime = 10000;
         spawn5.add(new StageSpawn(217484 ,1));
         ThreadPoolManager.getInstance().schedule(new stageSpawnTask(arena.getInstanceId(), spawn5, 1, 5, true), spawnTime);
     }
