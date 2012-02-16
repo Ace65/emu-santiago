@@ -299,6 +299,7 @@ public class AcademyBootcampService
                     
                 default:
                     started = false;
+                    break;
             }
         }
     	else if(arena.getStage() == 2)
@@ -311,6 +312,7 @@ public class AcademyBootcampService
                     
                 default:
                     started = false;
+                    break;
             }
         }
     	else if(arena.getStage() == 3)
@@ -323,6 +325,7 @@ public class AcademyBootcampService
                     
                 default:
                     started = false;
+                    break;
             }
         }
     	else if(arena.getStage() == 4)
@@ -335,6 +338,7 @@ public class AcademyBootcampService
                     
                 default:
                     started = false;
+                    break;
             }
         }
     	else if(arena.getStage() == 5)
@@ -347,6 +351,7 @@ public class AcademyBootcampService
     	            
     	        default:
     	            started = false;
+    	            break;
     	    }
     	}
     	else if(arena.getStage() == 6)
@@ -362,6 +367,7 @@ public class AcademyBootcampService
                     
                 default:
                     started = false;
+                    break;
             }
         }
     	else if(arena.getStage() == 7)
@@ -374,6 +380,7 @@ public class AcademyBootcampService
                     
                 default:
                     started = false;
+                    break;
             }
         }
     	else if(arena.getStage() == 8)
@@ -386,6 +393,7 @@ public class AcademyBootcampService
                     
                 default:
                     started = false;
+                    break;
             }
         }
     	else if(arena.getStage() == 9)
