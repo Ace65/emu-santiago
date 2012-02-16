@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summon_stats_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../stats.xsd">
+	<summon_stats npc_id_dark="201057" level="56">
+		<stats_template maxHp="674440" pdefense="1926" mresist="1492" main_hand_attack="678" run_speed="12.0" main_hand_accuracy="2548" main_hand_crit_rate="50" magic_accuracy="2332" mcrit="9" evasion="2248" parry="0" />
+	</summon_stats>
+</summon_stats_templates>

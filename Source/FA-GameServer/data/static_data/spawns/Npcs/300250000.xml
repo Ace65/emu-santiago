@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+	Created by Juanjo
+	For RenovatioCore
+	Better order of Instance Npc/Mobs
+ -->
+<spawns>
+	<!-- Esoterrace Spark -->
+	<spawn map="300250000" npcid="701051" pool="3" interval="295">
+		<object x="1321.173706" y="1172.846802" z="122.167374" h="0"/>
+		<object x="1302.564941" y="1164.917114" z="119.065849" h="0"/>
+		<object x="1306.219727" y="1177.170532" z="139.632828" h="0"/>
+		<object x="1321.488770" y="1160.809692" z="150.650085" h="0"/>
+	</spawn>
+	<!-- Esoterrace Reian Survivor -->
+	<spawn map="300250000" npcid="799627" pool="3" interval="295">
+		<object x="1149.0015" y="677.41486" z="296.2239" h="11"/>
+		<object x="392.86642" y="534.64355" z="321.0393" h="61"/>
+		<object x="340.511993" y="466.218353" z="328.0" h="0"/>
+	</spawn>
+	<!-- Esoterrace Murugan"s Mailbox -->
+	<spawn map="300250000" npcid="730381" pool="1" interval="295">
+		<object x="1320.107178" y="1146.615112" z="191.000000" h="0" staticid="97"/>
+	</spawn>
+	<!-- Esoterrace Reian Survivor -->
+	<spawn map="300250000" npcid="799626" pool="2" interval="295">
+		<object x="336.428955" y="464.342468" z="328.000000" h="0"/>
+		<object x="382.32236" y="539.8931" z="321.59137" h="112"/>
+	</spawn>
+	<!-- Esoterrace Laser 1 -->
+	<spawn map="300250000" npcid="701048" pool="1" interval="295">
+		<object x="1316.303101" y="1170.210938" z="53.916157" h="0" staticid="74"/>
+	</spawn>
+	<!-- Esoterrace Laser 2 -->
+	<spawn map="300250000" npcid="701049" pool="1" interval="295">
+		<object x="1316.303101" y="1170.210938" z="55.249214" h="0" staticid="18"/>
+	</spawn>
+	<!-- Esoterrace Drana 1 -->
+	<spawn map="300250000" npcid="701045" pool="1" interval="295">
+		<object x="1315.308960" y="1170.771851" z="209.043793" h="0" staticid="17"/>
+	</spawn>
+	<!-- Esoterrace Drana 2 -->
+	<spawn map="300250000" npcid="701046" pool="1" interval="295">
+		<object x="1315.174927" y="1170.454102" z="210.223007" h="0" staticid="14"/>
+	</spawn>
+	<!-- Esoterrace Smoke -->
+	<spawn map="300250000" npcid="701050" pool="2" interval="295">
+		<object x="1343.624023" y="1176.031494" z="150.967224" h="0" staticid="91"/>
+		<object x="1315.900024" y="1171.450195" z="69.986916" h="0" staticid="92"/>
+	</spawn>
+	<!-- Esoterrace Sundries Box -->
+	<spawn map="300250000" npcid="701025" pool="2" interval="295">
+		<object x="1038.636963" y="987.741455" z="328.356415" h="0"/>
+		<object x="1022.30695" y="900.8803" z="329.4151" h="0"/>
+	</spawn>
+	<!-- Nepion -->
+	<spawn map="300250000" npcid="799563" pool="1" interval="295">
+		<object x="339.008850" y="464.460419" z="328.0" h="0"/>
+	</spawn>
+	<!-- Rothyns -->
+	<spawn map="300250000" npcid="799590" pool="1" interval="295">
+		<object x="392.094" y="536.969" z="320.307" h="56"/>
+	</spawn>
+	<!-- Theo -->
+	<spawn map="300250000" npcid="799591" pool="1" interval="295">
+		<object x="1255.8" y="737.914" z="297.16" h="68"/>
+	</spawn>
+	<!-- Esoterrace Reian Survivor -->
+	<spawn map="300250000" npcid="205436" pool="1" interval="295">
+		<object x="1148.227" y="680.909" z="296.179" h="6"/>
+	</spawn>
+	<!-- Esoterrace Surama's Infosphere -->
+	<spawn map="300250000" npcid="730380" pool="1" interval="295">
+		<object x="1310.627441" y="1146.819214" z="191.0" h="0" staticid="11" />
+	</spawn>
+	<!-- Esoterrace (Q18410) -->
+	<spawn map="300250000" npcid="206179" pool="1" interval="295">
+		<object x="1132.050049" y="846.859985" z="322.0" h="0"/>
+	</spawn>
+	<!-- Esoterrace Surkana Box -->
+	<spawn map="300250000" npcid="701016" pool="5" interval="295">
+		<object x="1102.29" y="862.572" z="318.304" h="112"/>
+		<object x="1166.55" y="902.38" z="316.53" h="75"/>
+		<object x="1151.66" y="952.355" z="316.53" h="78"/>
+		<object x="1098.95" y="955.151" z="316.53" h="111"/>
+		<object x="1114.22" y="900.752" z="316.553" h="94"/>
+	</spawn>
+	 <!-- Esoterrace Dimensional Rift Exit -->
+	 <spawn map="300250000" npcid="205437" pool="1" interval="295">
+		<object x="1341.19" y="1181.25" z="51.515" h="67"/>
+	 </spawn>
+</spawns>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+	This file is part of aion-extreme <aion-core.net>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+	
+	@author Khaos
+
+ -->
+<spawns>
+	<spawn map="300320000" npcid="799567" pool="1" interval="295">
+		<object x="346.83643" y="1661.8251" z="95.26093" h="0"/>
+	</spawn>
+	
+	<spawn map="300320000" npcid="799573" pool="5" interval="295">
+		<object x="383.67142" y="1663.7479" z="97.85446" h="61"/><!-- 1 arena -->
+	    <object x="1821.7208" y="795.4882" z="469.51523" h="59"/><!-- 2 arena -->
+		<object x="1364.6239" y="1747.6862" z="319.125" h="65"/><!-- 3 arena -->
+		<object x="384.5378" y="349.26703" z="96.74763" h="60"/><!-- 4 arena -->
+		<object x="1309.1836" y="791.52515" z="437.29678" h="60"/><!-- 5 arena -->
+	</spawn>
+</spawns>
