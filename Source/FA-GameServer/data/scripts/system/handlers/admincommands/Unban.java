@@ -1,18 +1,22 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
+ * Copyright (c) 2012 by Aion Fantasy
  *
- *  aion-unique is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
+ * This file is part of Aion Fantasy <http://aionfantasy.com>.
  *
- *  aion-unique is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
+ * Aion Fantasy <http://www.aionfantasy.com> is free software: you
+ * can  redistribute  it and/or modify it under the terms
+ * of  the GNU General Public License as published by the
+ * Free Software Foundation, version 3 of the License.
  *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+ * Aion Fantasy <http://www.aionfantasy.com> is distributed in the
+ * hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without  even  the implied warranty of MERCHANTABILITY
+ * or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * See  the  GNU General Public License for more details.
+ * You  should  have  received  a copy of the GNU General
+ * Public License along with Aion Fantasy 
+ * <http://www.aionfantasy.com>.If not,see <http://www.gnu.org/licenses/>.
  */
 package admincommands;
 

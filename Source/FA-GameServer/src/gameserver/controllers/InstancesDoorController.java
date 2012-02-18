@@ -1,3 +1,24 @@
+/*
+ * Copyright (c) 2012 by Aion Fantasy
+ *
+ * This file is part of Aion Fantasy <http://aionfantasy.com>.
+ *
+ * Aion Fantasy <http://www.aionfantasy.com> is free software: you
+ * can  redistribute  it and/or modify it under the terms
+ * of  the GNU General Public License as published by the
+ * Free Software Foundation, version 3 of the License.
+ *
+ * Aion Fantasy <http://www.aionfantasy.com> is distributed in the
+ * hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without  even  the implied warranty of MERCHANTABILITY
+ * or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * See  the  GNU General Public License for more details.
+ * You  should  have  received  a copy of the GNU General
+ * Public License along with Aion Fantasy 
+ * <http://www.aionfantasy.com>.If not,see <http://www.gnu.org/licenses/>.
+ */
+
 package gameserver.controllers;
 
 import java.util.Iterator;
