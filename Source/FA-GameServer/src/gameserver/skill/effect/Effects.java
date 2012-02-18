@@ -163,6 +163,7 @@ public class Effects
 		@XmlElement(name = "summonhoming", type = SummonHomingEffect.class),
 		@XmlElement(name = "dualmastery", type = DualMasteryEffect.class),
 		@XmlElement(name = "shieldmastery", type = ShieldMasteryEffect.class),
+		@XmlElement(name = "leap", type = LeapEffect.class),
 		@XmlElement(name = "simpleroot", type = SimpleRootEffect.class)
 	})
 	protected List<EffectTemplate> effects;

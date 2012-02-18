@@ -168,6 +168,7 @@
 			<xs:element name="summonhoming" type="SummonHomingEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="dualmastery" type="DualMasteryEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="shieldmastery" type="ShieldMasteryEffect" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="leap" type="LeapEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="simpleroot" type="SimpleRootEffect" minOccurs="0" maxOccurs="1"/>
 		</xs:sequence>
 		<xs:attribute name="food" type="xs:boolean"/>
@@ -1192,6 +1193,15 @@
       <xs:extension base="BufEffect">
 			</xs:extension>
     </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="LeapEffect">
+   <xs:complexContent>
+    <xs:extension base="Effect">
+     <xs:attribute name="distance" type="xs:float"/>
+     <xs:attribute name="direction" type="xs:float"/>
+     <xs:attribute name="up" type="xs:float"/>
+    </xs:extension>
+   </xs:complexContent>
   </xs:complexType>
    <xs:complexType name="SimpleRootEffect">
     <xs:complexContent>
