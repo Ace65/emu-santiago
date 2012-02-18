@@ -794,15 +794,15 @@
 		<entrypoint mapid="600010000" x="1019.2403" y="961.7963" z="309.11652"/>
 		<exitpoint mapid="220070000" x="1703.9194" y="1114.0623" z="379.39148"/>
 	</portal>
-	<!-- Sematariux's Hideout Entrance Elyos -->
-	<portal npcid="730291" instance="false" minlevel="53" maxlevel="60" group="false" race="ELYOS">
+	<!-- Padmarashka's Cave Entrance Elyos -->
+	<portal npcid="730291" instance="true" minlevel="55" maxlevel="60" group="true" race="ELYOS">
 		<entrypoint mapid="210050000" x="135.68661" y="2018.0414" z="433.1476"/>
-		<exitpoint mapid="210050000" x="141.81787" y="2067.792" z="438.74838"/>
+		<exitpoint mapid="320150000" x="369.41263" y="528.68994" z="67.28671"/>
 	</portal>
 	<!-- Padmarashka's Cave Entrance Asmodians -->
-	<portal npcid="730293" instance="false" minlevel="53" maxlevel="60" group="false" race="ASMODIANS">
+	<portal npcid="730293" instance="true" minlevel="55" maxlevel="60" group="true" race="ASMODIANS">
 		<entrypoint mapid="220070000" x="2974.4292" y="1205.7853" z="241.9072"/>
-		<exitpoint mapid="220070000" x="2927.791" y="921.5419" z="35.288937"/>
+		<exitpoint mapid="320150000" x="369.41263" y="528.68994" z="67.28671"/>
 	</portal>
 	<!-- LF4_2011_In_Teleporter_Li -->
 	<portal npcid="257233" instance="false" minlevel="50" maxlevel="55" group="false" race="ELYOS">

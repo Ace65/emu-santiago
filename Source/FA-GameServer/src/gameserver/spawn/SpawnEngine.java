@@ -1,18 +1,18 @@
 /*
- * This file is part of aion-emu <aion-emu.com>.
+ * This file is part of aion-fantasy <aionfantasy.com>.
  *
- *  aion-emu is free software: you can redistribute it and/or modify
+ *  aion-fantasy is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  aion-emu is distributed in the hope that it will be useful,
+ *  aion-fantasy is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with aion-emu.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with aion-fantasy.  If not, see <http://www.gnu.org/licenses/>.
  */
 package gameserver.spawn;
 
@@ -45,6 +45,7 @@ import gameserver.controllers.instances.HaramelController;
 import gameserver.controllers.instances.BeshmundirTempleController;
 import gameserver.controllers.instances.KromedesTrialController;
 import gameserver.controllers.instances.SteelRakeController;
+import gameserver.controllers.InstancesDoorController;
 import gameserver.dao.SpawnDAO;
 import gameserver.dataholders.DataManager;
 import gameserver.dataholders.NpcData;
@@ -288,6 +289,15 @@ public class SpawnEngine
 				npc = new Npc(iDFactory.nextId(), new RestrictedPortalController(),
 					spawn, template);
 				npc.setKnownlist(new StaticObjectKnownList(npc));
+			}
+			
+			//Instances door Controller
+			else if ((objectId == 730291) || (objectId == 730293))
+			{
+			    npc = null;
+			    npc = new Npc(iDFactory.nextId(), new InstancesDoorController(),
+			            spawn, template);
+			    npc.setKnownlist(new NpcKnownList(npc));
 			}
 			
 			//quest related exceptions
