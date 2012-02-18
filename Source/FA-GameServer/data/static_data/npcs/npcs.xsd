@@ -32,6 +32,7 @@
 		<xs:attribute name="ai" type="xs:string" default="dummy"/>
 		<xs:attribute name="race" type="Race"/>
 		<xs:attribute name="hpgauge" type="xs:int"/>
+		<xs:attribute name="arank" type="xs:int"/>
 		<xs:attribute name="arange" type="xs:int"/>
 		<xs:attribute name="arate" type="xs:int"/>
 		<xs:attribute name="adelay" type="xs:int" default="2000"/>
