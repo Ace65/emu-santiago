@@ -331,6 +331,18 @@ public class NpcController extends CreatureController<Npc>
 				|| getOwner().getNpcId() == 730424 // Kaisinel Academy => Sanctum
 				|| getOwner().getNpcId() == 730425 // Kaisinel Academy => Inggison
 				|| getOwner().getNpcId() == 205314 // Inggison         => Kaisinel Academy
+				// Crucible Coliseum
+                || getOwner().getNpcId() == 205985 // Junos
+                || getOwner().getNpcId() == 205986 // Shinin
+                || getOwner().getNpcId() == 207056 // Discipline Training Grounds (Elyos)
+                || getOwner().getNpcId() == 207057 // Chaos Training Grounds (Elyos)
+                || getOwner().getNpcId() == 207058 // Discipline Training Grounds (Asmodians)
+                || getOwner().getNpcId() == 207059 // Chaos Training Grounds (Asmodians)
+                || getOwner().getNpcId() == 730481 // Arena of Chaos (Elyos)
+                || getOwner().getNpcId() == 730482 // Arena of Chaos (Asmodians)
+                || getOwner().getNpcId() == 730483 // Arena of Discipline (Elyos)
+                || getOwner().getNpcId() == 730484 // Arena of Discipline (Asmodians)
+
 			)
 		)
 		{			

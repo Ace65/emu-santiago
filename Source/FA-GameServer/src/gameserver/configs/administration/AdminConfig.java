@@ -343,5 +343,8 @@ public class AdminConfig
 	
     @Property(key = "gameserver.administration.command.wedding", defaultValue = "3")
     public static int COMMAND_WEDDING;
+    
+    @Property(key = "gameserver.administration.command.race", defaultValue = "5")
+    public static int COMMAND_RACE;
 
 }
