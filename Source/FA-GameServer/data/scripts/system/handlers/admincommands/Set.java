@@ -174,7 +174,7 @@ public class Set extends AdminCommand {
 			if (target instanceof Player)
 			{
 				Player player = target;
-				if (level <= 56)
+				if (level <= 61)
 					player.getCommonData().setLevel(level);
 				PacketSendUtility.sendMessage(admin, "Set " + player.getCommonData().getName() + " level to " + level);
 			}
