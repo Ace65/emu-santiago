@@ -27,11 +27,11 @@ package gameserver.utils.i18n;
  */
 public enum CustomMessageId
 {
-    WELCOME_PREMIUM("[Premium]: %s.\nCopyright Aion-Fantasy 2012.\nSERVER RATES:\nExp Rate: %d\nQuest Rate: %d\nDrop Rate: %d\n"),
-    WELCOME_VIP("[Vip]: %s.\nCopyright Aion-Fantasy 2012.\nSERVER RATES:\nExp Rate: %d\nQuest Rate: %d\nDrop Rate: %d\n"),
-    WELCOME_REGULAR("[Free]: %s.\nCopyright Aion-Fantasy 2012.\nSERVER RATES:\nExp Rate: %d\nQuest Rate: %d\nDrop Rate: %d\n"),
+    WELCOME_PREMIUM("[Premium]: %s.\nCopyright Aion Fantasy 2012 www.vizlatin.com.\nSERVER RATES:\nExp Rate: %d\nQuest Rate: %d\nDrop Rate: %d\n"),
+    WELCOME_VIP("[Vip]: %s.\nCopyright Aion Fantasy 2012 www.vizlatin.com.\nSERVER RATES:\nExp Rate: %d\nQuest Rate: %d\nDrop Rate: %d\n"),
+    WELCOME_REGULAR("[Free]: %s.\nCopyright Aion Fantasy 2012 www.vizlatin.com.\nSERVER RATES:\nExp Rate: %d\nQuest Rate: %d\nDrop Rate: %d\n"),
     SERVER_REVISION("Server Revision: %-6s"),
-    WELCOME_BASIC("[Free]: %s.\nCopyright Aion-Fantasy 2012."),
+    WELCOME_BASIC("[Free]: %s.\nCopyright Aion Fantasy 2012 www.vizlatin.com."),
     ANNOUNCE_GM_CONNECTION("%s just entered into Atreia."),
         COMMAND_NOT_ENOUGH_RIGHTS("You dont have enough rights to execute this command"),
         PLAYER_NOT_ONLINE("The player %s is not online"),
