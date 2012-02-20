@@ -18,4 +18,19 @@
 	<summon_stats npc_id_light="201040" level="55">
 		<stats_template maxHp="13543" pdefense="1926" mresist="1492" main_hand_attack="678" run_speed="12.0" main_hand_accuracy="2548" main_hand_crit_rate="50" magic_accuracy="2332" mcrit="9" evasion="2248" parry="0" />
 	</summon_stats>
+	<summon_stats npc_id_light="201066" level="56">
+        <stats_template maxHp="10773" pdefense="1751" mresist="1160" main_hand_attack="382" run_speed="10.0" main_hand_accuracy="2439" main_hand_crit_rate="50" magic_accuracy="2323" mcrit="9" evasion="2439" parry="0" /> 
+    </summon_stats>
+    <summon_stats npc_id_light="201066" level="57">
+        <stats_template maxHp="11023" pdefense="1776" mresist="1178" main_hand_attack="386" run_speed="10.0" main_hand_accuracy="2630" main_hand_crit_rate="50" magic_accuracy="2514" mcrit="9" evasion="2630" parry="0" /> 
+    </summon_stats>
+    <summon_stats npc_id_light="201066" level="58">
+        <stats_template maxHp="11293" pdefense="1801" mresist="1196" main_hand_attack="390" run_speed="10.0" main_hand_accuracy="2821" main_hand_crit_rate="50" magic_accuracy="2705" mcrit="9" evasion="2821" parry="0" /> 
+    </summon_stats>
+    <summon_stats npc_id_light="201066" level="59">
+        <stats_template maxHp="11568" pdefense="1826" mresist="1214" main_hand_attack="394" run_speed="10.0" main_hand_accuracy="3012" main_hand_crit_rate="50" magic_accuracy="2896" mcrit="9" evasion="3012" parry="0" /> 
+    </summon_stats>
+    <summon_stats npc_id_light="201066" level="60">
+        <stats_template maxHp="11857" pdefense="1851" mresist="1232" main_hand_attack="398" run_speed="10.0" main_hand_accuracy="3203" main_hand_crit_rate="50" magic_accuracy="3087" mcrit="9" evasion="3203" parry="0" /> 
+    </summon_stats>
 </summon_stats_templates>
