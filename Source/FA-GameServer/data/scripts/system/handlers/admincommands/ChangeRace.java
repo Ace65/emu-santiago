@@ -28,6 +28,8 @@ import gameserver.model.gameobjects.player.Player;
 import gameserver.network.aion.serverpackets.SM_PLAYER_INFO;
 import gameserver.utils.PacketSendUtility;
 import gameserver.utils.chathandlers.AdminCommand;
+import gameserver.utils.i18n.CustomMessageId;
+import gameserver.utils.i18n.LanguageHandler;
 import gameserver.world.World;
 
 /**
@@ -38,7 +40,7 @@ import gameserver.world.World;
 public class ChangeRace extends AdminCommand {
 
     public ChangeRace() {
-        super("crace");
+        super("race");
     }
 
     @Override
@@ -48,7 +50,7 @@ public class ChangeRace extends AdminCommand {
         
         if(admin.getAccessLevel() < AdminConfig.COMMAND_RACE)
         {
-                PacketSendUtility.sendMessage(admin, "You dont have enough rights to execute this command");
+                PacketSendUtility.sendMessage(admin, LanguageHandler.translate(CustomMessageId.COMMAND_NOT_ENOUGH_RIGHTS));
                         return;
         }
         
