@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This file is part of aionfantasy <aionfantasy.com>.
+
+	aionfantasy is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aionfantasy is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aionfantasy.  If not, see <http://www.gnu.org/licenses/>.
+ -->
 <portal_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="portal_templates.xsd">
 	<!-- INSTANCES -->
 	<!-- Adma Stronghold -->
@@ -733,22 +749,22 @@
 	</portal>
 	<!-- TODO: Get exacts retail entry/exit points and retail fortress owners restriction-->
 	<!-- Inggison to Silentera Canyon Entrance Elyos -->
-	<portal npcid="730256" instance="false" minlevel="50" maxlevel="60" race="ELYOS">
+	<portal npcid="730256" instance="false" minlevel="50" maxlevel="55" race="ELYOS">
 		<entrypoint mapid="210050000" x="1362.66" y="2302.95" z="296.5737"/>
-		<exitpoint mapid="600010000" x="467.35" y="464.89" z="330.44766"/>
+		<exitpoint mapid="600010000" x="471.66324" y="457.99576" z="329.8607"/>
 	</portal>
 	<!-- Gelkmaros to Silentera Canyon Entrance Asmodians -->
-	<portal npcid="730260" instance="false" minlevel="50" maxlevel="60" race="ASMODIANS">
+	<portal npcid="730260" instance="false" minlevel="50" maxlevel="55" race="ASMODIANS">
 		<entrypoint mapid="220070000" x="1449.2313" y="903.7223" z="302.2702"/>
 		<exitpoint mapid="600010000" x="471.53934" y="1078.136" z="335.80417"/>
 	</portal>
 	<!-- Silentera Canyon to Inggison WestGate-->
-	<portal npcid="730270" instance="false" minlevel="50" maxlevel="60">
+	<portal npcid="730270" instance="false" minlevel="50" maxlevel="55">
 		<entrypoint mapid="600010000" x="467.35" y="464.89" z="330.44766"/>
 		<exitpoint mapid="210050000" x="1362.66" y="2302.95" z="296.5737"/>
 	</portal>
 	<!-- Silentera Canyon to Gelkmaros EastGate -->
-	<portal npcid="730271" instance="false" minlevel="50" maxlevel="60">
+	<portal npcid="730271" instance="false" minlevel="50" maxlevel="55">
 		<entrypoint mapid="600010000" x="471.53934" y="1078.136" z="335.80417"/>
 		<exitpoint mapid="220070000" x="1449.2313" y="903.7223" z="302.2702"/>
 	</portal>
@@ -759,17 +775,17 @@
 		<exitpoint mapid="110010000" x="2006.3083" y="1478.7644" z="592.1204"/>
 	</portal>
 	<!-- Hanarkand Pass To Inggison -->
-	<portal npcid="730258" instance="false" minlevel="50" maxlevel="60" group="false">
+	<portal npcid="730258" instance="false" minlevel="50" maxlevel="55" group="false">
 		<entrypoint mapid="600010000" x="920.4469" y="148.93167" z="347.11508"/>
 		<exitpoint mapid="210050000" x="2763.2144" y="2134.2322" z="245.125"/>
 	</portal>
 	<!-- Angrief's Pass To Inggison -->
-	<portal npcid="730257" instance="false" minlevel="50" maxlevel="60" group="false">
+	<portal npcid="730257" instance="false" minlevel="50" maxlevel="55" group="false">
 		<entrypoint mapid="600010000" x="481.6511" y="108.14716" z="324.52115"/>
 		<exitpoint mapid="210050000" x="1083.0206" y="2016.9448" z="362.21216"/>
 	</portal>
 	<!-- Primeval Pass To Inggison -->
-	<portal npcid="730259" instance="false" minlevel="50" maxlevel="60" group="false">
+	<portal npcid="730259" instance="false" minlevel="50" maxlevel="55" group="false">
 		<entrypoint mapid="600010000" x="980.95276" y="561.16156" z="310.82953"/>
 		<exitpoint mapid="210050000" x="404.0378" y="2067.6404" z="334.70285"/>
 	</portal>
