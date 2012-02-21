@@ -1,12 +1,12 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
+ * This file is part of aionfantasy <aionfantasy.com>.
  *
- *  aion-unique is free software: you can redistribute it and/or modify
+ *  aionfantasy is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  aion-unique is distributed in the hope that it will be useful,
+ *  aionfantasy is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
@@ -16,7 +16,7 @@
  */
 package gameserver.network.aion.serverpackets;
 
-import gameserver.configs.main.CustomConfig;
+//import gameserver.configs.main.CustomConfig;
 import gameserver.network.aion.AionConnection;
 import gameserver.network.aion.AionServerPacket;
 
@@ -50,7 +50,7 @@ public class SM_RIFT_STATUS extends AionServerPacket
 		writeD(buf, usedEntries);
 		writeD(buf, maxEntries);
 		writeD(buf, 6793); //unk
-        writeD(buf, CustomConfig.RIFT_MIN_LEVEL); // min level
+        writeD(buf, 25); // min level: CustomConfig.RIFT_MIN_LEVEL
 		writeD(buf, maxLevel);	
 	}
 }

@@ -134,7 +134,7 @@ public class ServerPacketsOpcodes
 		addPacketOpcode(SM_INSTANCE_SCORE.class, 0x0179, idSet);// 2.1 0x76, 2.7 Testing
 		addPacketOpcode(SM_QUEST_ACCEPTED.class,0x017A, idSet);// 2.6 0x7A, 2.7
         addPacketOpcode(SM_QUEST_LIST.class,0x017B, idSet);// 2.6 0x7B, 2.7
-		addPacketOpcode(SM_PING_RESPONSE.class,0x007E, idSet);// 2.6 0x7E, 2.7
+		addPacketOpcode(SM_PING_RESPONSE.class,0x017E, idSet);// 2.6 0x7E, 2.7
         addPacketOpcode(SM_NEARBY_QUESTS.class,0x017F, idSet);// 2.6 0x7F, 2.7
 		addPacketOpcode(SM_CUBE_UPDATE.class,0x0180, idSet);// 2.6 0x80, 2.7
 		// 2.7 Unknown - 82 00 57 7D FF 
@@ -240,6 +240,7 @@ public class ServerPacketsOpcodes
 		addPacketOpcode(SM_VERSION_CHECK.class,0x00FE, idSet);// 2.6 0xFE, 2.7
         addPacketOpcode(SM_RECONNECT_KEY.class,0x01FF, idSet);// 2.6 0xFF, 2.7
         addPacketOpcode(SM_CUSTOM_PACKET.class,99999, idSet);// fake packet
+        addPacketOpcode(SM_RIFT_STATUS.class, 0x01AF, idSet);// 2.7
     }
 
     static int getOpcode(Class<? extends AionServerPacket> packetClass)
