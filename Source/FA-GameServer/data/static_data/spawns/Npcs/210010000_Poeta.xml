@@ -375,8 +375,4 @@
 		<object staticid="529" x="674.14142" y="949.74982" z="104.15768" h="0"/>
 		<object staticid="526" x="611.2782" y="905.19202" z="103" h="0"/>
 	</spawn>
-	<!-- Thenon (NPC Daeva of Summer lvl:55) -->
-	<spawn map="210010000" npcid="799707" pool="1" interval="295">
-		<object x="865.9772" y="1226.3323" z="118.875" h="65"/>
-	</spawn>
 </spawns>
