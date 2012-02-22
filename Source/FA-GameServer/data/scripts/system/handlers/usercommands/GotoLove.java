@@ -22,7 +22,7 @@ import java.util.Map;
 
 import javolution.util.FastMap;
 
-import gameserver.configs.main.GSConfig;
+import gameserver.configs.administration.AdminConfig;
 import gameserver.model.gameobjects.player.Player;
 import gameserver.services.TeleportService;
 import gameserver.utils.PacketSendUtility;
@@ -45,8 +45,8 @@ public class GotoLove extends UserCommand {
     @Override
     public void executeCommand(Player player, String params) {
     	 if(lastUsage.containsKey(player.getObjectId())) {
-			 if((System.currentTimeMillis() - lastUsage.get(player.getObjectId())) < GSConfig.GOTOLOVE_COOLDOWN*1000) {
-				 PacketSendUtility.sendMessage(player, "You cannot use this command more than every 10 Minutes! Seconds left untill you can use the command again:" + (GSConfig.GOTOLOVE_COOLDOWN*1000 -(System.currentTimeMillis() - lastUsage.get(player.getObjectId())))/1000);
+			 if((System.currentTimeMillis() - lastUsage.get(player.getObjectId())) < AdminConfig.GOTOLOVE_COOLDOWN*1000) {
+				 PacketSendUtility.sendMessage(player, "You cannot use this command more than every 10 Minutes! Seconds left untill you can use the command again:" + (AdminConfig.GOTOLOVE_COOLDOWN*1000 -(System.currentTimeMillis() - lastUsage.get(player.getObjectId())))/1000);
 				 return;
 			 }
 		 }
@@ -78,7 +78,7 @@ public class GotoLove extends UserCommand {
         }
         TeleportService.teleportTo(player, partner.getWorldId(),
                 partner.getInstanceId(), partner.getX(), partner.getY(),
-                partner.getZ(), partner.getHeading(), GSConfig.GOTOLOVE_TELEPORTDELAY*1000);
+                partner.getZ(), partner.getHeading(), AdminConfig.GOTOLOVE_TELEPORTDELAY*1000);
         lastUsage.put(player.getObjectId(), new Long(System.currentTimeMillis()));
 
     }
