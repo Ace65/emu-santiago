@@ -1,18 +1,18 @@
 /*
- * This file is part of aion-emu <aion-emu.com>.
+ * This file is part of aionfantasy <aionfantasy.com>.
  *
- * aion-emu is free software: you can redistribute it and/or modify
+ * aionfantasy is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * aion-emu is distributed in the hope that it will be useful,
+ * aionfantasy is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with aion-emu.  If not, see <http://www.gnu.org/licenses/>.
+ * along with aionfantasy.  If not, see <http://www.gnu.org/licenses/>.
  */
 package gameserver;
 
@@ -51,7 +51,7 @@ import gameserver.world.World;
 import br.focus.arena.AionArenaService;
 import br.focus.battleground.BattleGroundManager;
 
-import java.io.File;
+//import java.io.File;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.locks.ReentrantLock;
@@ -88,7 +88,7 @@ public class GameServer
 	public static Server nioServer;
 	public static Server rdcServer;
 	
-	public static String		CONFIGURATION_FILE;
+	//public static String		CONFIGURATION_FILE;
 	
 	/**
 	 * Launching method for GameServer
@@ -100,7 +100,7 @@ public class GameServer
 	{
 		long start = System.currentTimeMillis();
 		
-		if(args.length == 0)
+		/**if(args.length == 0)
 			CONFIGURATION_FILE = "./config/default.config";
 		else
 		{
@@ -114,6 +114,7 @@ public class GameServer
 			log.fatal("Unable to stat " + CONFIGURATION_FILE + " : Unreadable file (check filesystem permissions)");
 		
 		cfgFile = null;
+		*/
 
 		initUtilityServicesAndConfig();
 		

@@ -24,6 +24,8 @@ import gameserver.utils.AEVersions;
 import gameserver.utils.PacketSendUtility;
 import gameserver.utils.ThreadPoolManager;
 import gameserver.utils.chathandlers.AdminCommand;
+import gameserver.utils.i18n.CustomMessageId;
+import gameserver.utils.i18n.LanguageHandler;
 
 import java.util.List;
 
@@ -53,7 +55,7 @@ public class AESystem extends AdminCommand
 	{
 		if (admin.getAccessLevel() < AdminConfig.COMMAND_SYSTEM)
 		{
-			PacketSendUtility.sendMessage(admin, "You dont have enough rights to execute this command!");
+			PacketSendUtility.sendMessage(admin, LanguageHandler.translate(CustomMessageId.COMMAND_NOT_ENOUGH_RIGHTS));
 			return;
 		}
 

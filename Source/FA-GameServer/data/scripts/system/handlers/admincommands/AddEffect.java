@@ -7,6 +7,8 @@ import gameserver.model.gameobjects.VisibleObject;
 import gameserver.skill.model.Effect;
 import gameserver.skill.model.SkillTemplate;
 import gameserver.utils.chathandlers.AdminCommand;
+import gameserver.utils.i18n.CustomMessageId;
+import gameserver.utils.i18n.LanguageHandler;
 import gameserver.utils.PacketSendUtility;
 
 /**
@@ -23,7 +25,7 @@ public class AddEffect extends AdminCommand {
 	{
 		if(admin.getAccessLevel() < AdminConfig.COMMAND_ADDEFFECT)
 		{
-			PacketSendUtility.sendMessage(admin, "You dont have enough rights to execute this command");
+			PacketSendUtility.sendMessage(admin, LanguageHandler.translate(CustomMessageId.COMMAND_NOT_ENOUGH_RIGHTS));
 			return;
 		}
 

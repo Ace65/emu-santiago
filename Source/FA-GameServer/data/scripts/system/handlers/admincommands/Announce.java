@@ -22,6 +22,8 @@ import gameserver.model.gameobjects.Executor;
 import gameserver.model.gameobjects.player.Player;
 import gameserver.utils.PacketSendUtility;
 import gameserver.utils.chathandlers.AdminCommand;
+import gameserver.utils.i18n.CustomMessageId;
+import gameserver.utils.i18n.LanguageHandler;
 import gameserver.world.World;
 
 
@@ -54,7 +56,7 @@ public class Announce extends AdminCommand
 
 		if (admin.getAccessLevel() < AdminConfig.COMMAND_ANNOUNCE)
 		{
-			PacketSendUtility.sendMessage(admin, "You dont have enough rights to execute this command.");
+			PacketSendUtility.sendMessage(admin, LanguageHandler.translate(CustomMessageId.COMMAND_NOT_ENOUGH_RIGHTS));
 			return;
 		}
 

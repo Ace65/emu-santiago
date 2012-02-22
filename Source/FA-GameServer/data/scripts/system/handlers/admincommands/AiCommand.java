@@ -22,6 +22,8 @@ import gameserver.model.gameobjects.VisibleObject;
 import gameserver.model.gameobjects.player.Player;
 import gameserver.utils.PacketSendUtility;
 import gameserver.utils.chathandlers.AdminCommand;
+import gameserver.utils.i18n.CustomMessageId;
+import gameserver.utils.i18n.LanguageHandler;
 
 /**
  * @author ATracer
@@ -39,7 +41,7 @@ public class AiCommand extends AdminCommand
 	{
 		if (admin.getAccessLevel() < AdminConfig.COMMAND_AI)
 		{
-			PacketSendUtility.sendMessage(admin, "You dont have enough rights to execute this command");
+			PacketSendUtility.sendMessage(admin, LanguageHandler.translate(CustomMessageId.COMMAND_NOT_ENOUGH_RIGHTS));
 			return;
 		}
 

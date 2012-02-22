@@ -1,22 +1,22 @@
 /**
- * This file is part of aion-emu <aion-emu.com>.
+ * This file is part of aionfantasy <aionfantasy.com>.
  *
- *  aion-emu is free software: you can redistribute it and/or modify
+ *  aionfantasy is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  aion-emu is distributed in the hope that it will be useful,
+ *  aionfantasy is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with aion-emu.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with aionfantasy.  If not, see <http://www.gnu.org/licenses/>.
  */
 package gameserver.configs;
 
-import gameserver.GameServer;
+//import gameserver.GameServer;
 import gameserver.configs.administration.AdminConfig;
 import gameserver.configs.main.CacheConfig;
 import gameserver.configs.main.CustomConfig;
@@ -40,6 +40,8 @@ import gameserver.configs.network.FloodConfig;
 import gameserver.configs.network.IPConfig;
 import gameserver.configs.network.NetworkConfig;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Properties;
 
 import org.apache.log4j.Logger;
@@ -59,6 +61,25 @@ public class Config
 	 * Logger for this class.
 	 */
 	protected static final Logger	log	= Logger.getLogger(Config.class);
+	
+	/**
+     * Files Configs Emu
+     */
+	public static final String FANTASY_GS = "./config/default.properties";
+    public static final String ADMIN_CONFIG = "./config/admin.properties";
+    public static final String LEGION_CONFIG = "./config/legions.properties";
+    public static final String DROP_CONFIG = "./config/drop.properties";
+    public static final String RATE_CONFIG = "./config/rates.properties";
+    public static final String GENERAL_CONFIG = "./config/general.properties";
+    public static final String GAMESERVER_CONFIG = "./config/gameserver.properties";
+    public static final String CUSTOM_CONFIG = "./config/custom.properties";
+    public static final String DATABASE_CONFIG = "./config/database.properties";
+    public static final String NPC_CONFIG = "./config/npc.properties";
+    public static final String CHARACTER_CONFIG = "./config/character.properties";
+    public static final String SIEGE_CONFIG = "./config/siege.properties";
+    public static final String NETWORK_CONFIG = "./config/network.properties";
+    public static final String FLOOD_CONFIG = "./config/floodcontrol.properties";
+    public static final String EVENT_CONFIG = "./config/event.properties";
 
 	/**
 	 * Initialize all configs in gameserver.configs package
@@ -67,30 +88,30 @@ public class Config
 	{
 		try
 		{
-			Properties props = PropertiesUtils.load(GameServer.CONFIGURATION_FILE); 
-			ConfigurableProcessor.process(Config.class, props);			
-			ConfigurableProcessor.process(AdminConfig.class, props);
-			ConfigurableProcessor.process(LegionConfig.class, props);
-			ConfigurableProcessor.process(DropConfig.class, props);
-			ConfigurableProcessor.process(RateConfig.class, props);
-			ConfigurableProcessor.process(CacheConfig.class, props);
-			ConfigurableProcessor.process(ShutdownConfig.class, props);
-			ConfigurableProcessor.process(TaskManagerConfig.class, props);
-			ConfigurableProcessor.process(GroupConfig.class, props);
-			ConfigurableProcessor.process(CustomConfig.class, props);
-			ConfigurableProcessor.process(EnchantsConfig.class, props);
-			ConfigurableProcessor.process(FallDamageConfig.class, props);
-			ConfigurableProcessor.process(GSConfig.class, props);
-			ConfigurableProcessor.process(NpcMovementConfig.class, props);
-			ConfigurableProcessor.process(PeriodicSaveConfig.class, props);
-			ConfigurableProcessor.process(PricesConfig.class, props);
-			ConfigurableProcessor.process(SiegeConfig.class, props);
-			ConfigurableProcessor.process(ThreadConfig.class, props);
-			ConfigurableProcessor.process(NetworkConfig.class, props);
-			ConfigurableProcessor.process(DatabaseConfig.class, props);
-			ConfigurableProcessor.process(HTMLConfig.class, props);
-			ConfigurableProcessor.process(FloodConfig.class, props);
-			ConfigurableProcessor.process(EventConfig.class, props);
+			//Properties props = PropertiesUtils.load(GameServer.CONFIGURATION_FILE); 
+			//ConfigurableProcessor.process(Config.class, props);			
+			ConfigurableProcessor.process(AdminConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(LegionConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(DropConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(RateConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(CacheConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(ShutdownConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(TaskManagerConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(GroupConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(CustomConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(EnchantsConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(FallDamageConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(GSConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(NpcMovementConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(PeriodicSaveConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(PricesConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(SiegeConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(ThreadConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(NetworkConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(DatabaseConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(HTMLConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(FloodConfig.class, loadFile(FANTASY_GS));
+			ConfigurableProcessor.process(EventConfig.class, loadFile(FANTASY_GS));
 		}
 		catch(Exception e)
 		{
@@ -100,4 +121,20 @@ public class Config
 
 		IPConfig.load();
 	}
+	
+	private static Properties loadFile(String name) throws IOException
+        {
+        File cfg = new File(name);
+            if (!cfg.exists())
+            {
+                log.fatal("File "+name+": No such file.");
+                throw new Error("File "+name+": No such file.");
+            }  
+            else if (!cfg.canRead())
+            {
+                log.fatal("File "+name+": Unreadable file (check filesystem permissions)");
+                throw new Error("File "+name+": Unreadable file (check filesystem permissions)");
+            }
+            return PropertiesUtils.load(cfg);
+        }
 }
