@@ -933,10 +933,6 @@
 	<spawn map="110010000" npcid="203726" pool="1" interval="295">
 		<object x="1332.60000" y="1512.00000" z="569.94135" h="60"/>
 	</spawn>
-	<!-- Portzebnerk-->
-	<spawn map="110010000" npcid="799769" pool="1" interval="295">
-		<object x="1460.6" y="1534.78" z="573.072" h="69"/>
-	</spawn>
 	<!-- Proserpina (NPC Normal lvl:10)-->
 	<spawn map="110010000" npcid="203794" pool="1" interval="295">
 		<object x="1889.50870" y="1537.93530" z="590.13450" h="60"/>
@@ -1037,17 +1033,9 @@
 		<object x="1572.88000" y="1511.42500" z="572.50555" h="80"/>
 		<object x="1368.14000" y="1511.32200" z="569.0751" h="90"/>
 	</spawn>
-	<!-- Smootinerk (NPC Normal lvl:3)-->
-	<spawn map="110010000" npcid="799714" pool="1" interval="295">
-		<object x="1564.60660" y="1391.06100" z="160.41714" h="98"/>
-	</spawn>
 	<!-- Soana (NPC Normal lvl:40)-->
 	<spawn map="110010000" npcid="203815" pool="1" interval="295">
 		<object x="1953.90340" y="1539.10910" z="590.36470" h="60"/>
-	</spawn>
-	<!-- Sonaran-->
-	<spawn map="110010000" npcid="799763" pool="1" interval="295">
-		<object x="1458.98" y="1487.85" z="573.072" h="48"/>
 	</spawn>
 	<!-- Steel Beard -->
 	<spawn map="110010000" npcid="748006" pool="1" interval="295">

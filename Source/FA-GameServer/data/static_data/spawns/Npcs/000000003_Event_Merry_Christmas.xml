@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+	This file is part of aionfantasy <aionfantasy.com>.
+
+	aionfantasy is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aionfantasy is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aionfantasy.  If not, see <http://www.gnu.org/licenses/>.
+	
+	Atreia
+	@Santiago Vizcardo
+ -->
+<spawns>
+	<!-- Smootinerk (NPC Trader Merry Christmas lvl:3) Sanctum:Elyos -->
+	<spawn map="110010000" npcid="799714" pool="1" interval="295">
+		<object x="1528.1183" y="1511.7924" z="565.8933" h="59"/>
+	</spawn>
+	<!-- Sonaran (NPC Daeva Merry Christmas lvl:50) Sanctum:Elyos -->
+	<spawn map="110010000" npcid="799763" pool="1" interval="295">
+		<object x="1458.98" y="1487.85" z="573.072" h="48"/>
+	</spawn>
+	<!-- Portzebnerk (NPC Daeva Merry Christmas lvl:50) Sanctum:Elyos -->
+	<spawn map="110010000" npcid="799769" pool="1" interval="295">
+		<object x="1460.6" y="1534.78" z="573.072" h="69"/>
+	</spawn>
+</spawns>
