@@ -22,6 +22,8 @@ import gameserver.services.InstanceService;
 import gameserver.services.TeleportService;
 import gameserver.utils.PacketSendUtility;
 import gameserver.utils.chathandlers.AdminCommand;
+import gameserver.utils.i18n.CustomMessageId;
+import gameserver.utils.i18n.LanguageHandler;
 import gameserver.world.WorldMapInstance;
 import gameserver.world.WorldMapType;
 
@@ -47,7 +49,7 @@ public class GoTo extends AdminCommand
 	{
 		if (admin.getAccessLevel() < AdminConfig.COMMAND_GOTO)
 		{
-			PacketSendUtility.sendMessage(admin, "You dont have enough rights to execute this command!");
+			PacketSendUtility.sendMessage(admin, LanguageHandler.translate(CustomMessageId.COMMAND_NOT_ENOUGH_RIGHTS));
 			return;
 		}
 
@@ -812,6 +814,18 @@ public class GoTo extends AdminCommand
 			TeleportService.teleportTo(admin, 300210000, getInstanceId(300210000, admin), 414, 193, 431, 0);
 			PacketSendUtility.sendMessage(admin, "Teleported to Chantra Dredgion.");
 		}
+		
+		else if (params[0].toLowerCase().equals("arenaofchaos"))
+        {
+            TeleportService.teleportTo(admin, 300350000, getInstanceId(300350000, admin), 1803, 1716, 312, 0);
+            PacketSendUtility.sendMessage(admin, "Teleported to Arena of Chaos.");
+        }
+		
+		else if (params[0].toLowerCase().equals("arenaofdiscipline"))
+        {
+            TeleportService.teleportTo(admin, 300360000, getInstanceId(300360000, admin), 1848, 1737, 312, 0);
+            PacketSendUtility.sendMessage(admin, "Teleported to Arena of Discipline.");
+        }
 		
 		else 
 			PacketSendUtility.sendMessage(admin, "Target location was not found!");
