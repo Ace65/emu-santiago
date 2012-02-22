@@ -118,10 +118,4 @@ public class GSConfig
 	@Property(key = "gameserver.enable.geo", defaultValue = "false")
 	public static boolean		GEODATA_ENABLED;
 	
-	@Property(key = "gameserver.enable.gotolove.cooldown", defaultValue = "3600")
-	public static int 		GOTOLOVE_COOLDOWN;
-	
-	@Property(key = "gameserver.enable.gotolove.telelportdelay", defaultValue = "10")
-	public static int 		GOTOLOVE_TELEPORTDELAY;
-	
 }

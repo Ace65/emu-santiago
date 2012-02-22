@@ -346,5 +346,11 @@ public class AdminConfig
     
     @Property(key = "gameserver.administration.command.race", defaultValue = "5")
     public static int COMMAND_RACE;
+    
+    @Property(key = "gameserver.enable.gotolove.cooldown", defaultValue = "3600")
+    public static int       GOTOLOVE_COOLDOWN;
+    
+    @Property(key = "gameserver.enable.gotolove.telelportdelay", defaultValue = "10")
+    public static int       GOTOLOVE_TELEPORTDELAY;
 
 }
